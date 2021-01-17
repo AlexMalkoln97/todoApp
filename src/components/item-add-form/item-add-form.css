@@ -1,0 +1,16 @@
+.item-add-form {
+  margin-left: 5px;
+}
+
+.input-form {
+  width: 400px;
+  margin-top: 16px;
+  margin-right: 5px;
+  margin-left: -5px;
+}
+
+.item-add-form button {
+  width: 95px;
+  height: 38px;
+  margin-top: 16px;
+}
