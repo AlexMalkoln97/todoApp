@@ -3,9 +3,8 @@ import React, { Component } from 'react';
 import './search-panel.css';
 
 export default class SearchPanel extends Component {
-
   state = {
-    term: ''
+    term: '',
   };
 
   onChangeTerm = (e) => {
@@ -16,12 +15,13 @@ export default class SearchPanel extends Component {
 
   render() {
     return (
-      <input type="text"
-                className="form-control search-input"
-                placeholder="type to search"
-                onChange={this.onChangeTerm}
-                value={this.state.term} />
+      <input
+        type="text"
+        className="form-control search-input"
+        placeholder="type to search"
+        onChange={this.onChangeTerm}
+        value={this.state.term}
+      />
     );
-  };
-};
-
+  }
+}
